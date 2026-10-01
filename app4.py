@@ -9,7 +9,7 @@ import pandas as pd
 import gc  # Garbage Collector for memory management
 
 # --- Page Configuration & Custom CSS ---
-st.set_page_config(page_title="AI Resume Sorting Scanner | Jay Bisht", page_icon="👔", layout="wide")
+st.set_page_config(page_title="AI Resume Sorting Scanner | Ayushi negi", page_icon="👔", layout="wide")
 
 # Inject Custom CSS for a sleek, enterprise SaaS look
 st.markdown("""
@@ -124,7 +124,7 @@ with st.container(border=True):
     with col2:
         st.title("NexusHR Applicant Tracking")
         st.markdown("**AI-Powered Resume Screening & Bias-Aware Analytics Dashboard**")
-        st.markdown("*Architecture & Engineering by **Jay Bisht***")
+        st.markdown("*Architecture & Engineering by **Ayushi Negi***")
 
 # --- Sidebar Controls (The Command Center) ---
 st.sidebar.markdown("### ⚙️ Engine Configurations")
@@ -159,7 +159,7 @@ analyze_button = st.sidebar.button("🚀 Initialize Neural Scan")
 
 st.sidebar.markdown("---")
 st.sidebar.markdown(
-    "<div style='text-align: center; color: #6B7280; font-size: 14px;'>Designed & Developed by<br><b>Jay Bisht</b></div>", 
+    "<div style='text-align: center; color: #6B7280; font-size: 14px;'>Designed & Developed by<br><b>Ayushi</b></div>", 
     unsafe_allow_html=True
 )
 
